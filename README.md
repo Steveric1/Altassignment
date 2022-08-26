@@ -1,8 +1,7 @@
 # Altshool Assignment
 Cloud Engineering altshool assignment execution of;
 1. Command line 
-
-[command line](https://user-images.githubusercontent.com/105046475/186950043-2d9df03b-fb58-4cd8-ad5d-c63a854b01fb.png)
+![command line](https://user-images.githubusercontent.com/105046475/186950597-793a7d8a-019b-4039-a04a-ad5512b4cab9.png)
 
 2. Change of timezone 
 ![Timezone ](https://user-images.githubusercontent.com/105046475/186950148-d7918dbf-882f-4d1e-9915-18e20331cb89.png)
