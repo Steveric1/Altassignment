@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+.div{
+    margin-left: 10%;
+}
+
+.span{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.vag{
+    color: darkred;
+    font-size: 20px;
+}
