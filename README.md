@@ -22,3 +22,18 @@ Exercise 5
 <ul>
         <li>Install PHP 7.4 on your local linux machine using the <br>ppa:ondrej/php package repo.</li>
     </ul>
+    
+Exercise 6
+ <ul>
+        <li>You already have Github account, aso setup a<br> GitLab account if you don't have one already</li>
+        <li>You already have a altschool-cloud-exercises project, <br>clone the project to your local system</li>
+        <li>Setup your name and email in Git's global config</li>
+    </ul>
+    
+Instruction:
+<ul>
+        <li>Submit the output of:</li>
+        <li>git config -l</li>
+        <li>git remote -v</li>
+        <li>git log</li>
+    </ul>
