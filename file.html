@@ -38,7 +38,7 @@
         <li>chmod: Is used to change the permission of a directory </li><br>
         <img src="use of chmod.png" alt="used of file command" height="100px" width="700px">
 
-        <li>echo: is a shell builtin that performs a very simple task. 
+        <li>echo: is a shell builtin that performs a very simple task.<br> 
             It prints out its text arguments on standard output: </li><br>
             <img src="use of echo.png" alt="used of file command" height="100px" width="700px">
     </ul><br>
@@ -49,15 +49,63 @@
         <span class="vag">vagrant@ubuntu-focal:~$</span> timedatectl list-timezones: to list all timezones <br>
         <img src="list-timezone.png" alt="used of file command" height="100px" width="750px"><br>
 
-        <span class="vag">vagrant@ubuntu-focal:~$</span> timedatectl list-timezones | grep Canada : to narrow down my search to Canada<br>
+        <span class="vag">vagrant@ubuntu-focal:~$</span> timedatectl list-timezones | grep Canada : <br>to narrow down my search to Canada<br>
         <img src="pipe-timezones.png" alt="used of file command" height="100px" width="750px"><br>
 
-        <span class="vag">vagrant@ubuntu-focal:~$</span> sudo timedatectl set-timezone " Canada/Atlantic" : to set my timezone to  Canada/Atlantic<br>
+        <span class="vag">vagrant@ubuntu-focal:~$</span> sudo timedatectl set-timezone " Canada/Atlantic" :<br> to set my timezone to  Canada/Atlantic<br>
         <img src="set-timezone.png" alt="used of file command" height="100px" width="750px"><br><br>
         <img src="Timezone .png" alt="used of file command" height="350px" width="750px">
     </p><br><br>
     <h1>Private Network From Dhcp</h1><br>
-    <img src="private_network.png" alt="used of file command" height="550px" width="850px">
+    <img src="private_network.png" alt="used of file command" height="550px" width="850px"><br><br>
+
+    <h1>Exercise 4</h1>
+    <ul>
+        <li>Create 3 groups /- admin, support & engineering and add the admin group to sudoers. </li>
+        <li>Create a user in each of the groups.</li>
+        <li>Generate SSH keys for the user in the admin group</li>
+    </ul><br>
+    <span class="span">Instructions:</span><br>
+    <ul>
+        <li>Submit the contents of /etc/passwd, /etc/group, /etc/sudoers</li>
+    </ul><br>
+
+    <span class="span">Solution:</span><br>
+    <ul>
+        <li>Content of /etc/passwd screenshoot</li>
+        <img src="/content of etc-passwd.png" alt="Content of /etc/passwd screenshoot" height="550px" width="850px"><br><br>
+
+        <li>Content of /etc/group screenshoot</li>
+        <img src="/content of etc-group.png" alt="Content of /etc/group screenshoot" height="550px" width="850px"><br><br>
+
+        <li>Content of /etc/sudoers screenshoot</li>
+        <img src="/content of etc-sudoers.png" alt="Content of /etc/sudoers screenshoot" height="550px" width="850px">
+    </ul><br><br>
+
+    <h1>Exercise 5</h1>
+    <ul>
+        <li>Install PHP 7.4 on your local linux machine using the <br>ppa:ondrej/php package repo.</li>
+    </ul><br>
+
+    <span class="span">Instructions:</span><br>
+    <ul>
+        <li>Learn how to use the add-apt-repository command</li>
+        <li>Submit the content of /etc/apt/sources.list and the output of php -v command.</li>
+    </ul><br>
+
+    <span class="span">Solution:</span><br>
+    <ul>
+        <li>Content of the /etc/apt/sources.list</li><br>
+        <img src="/sources.list.png" alt="Content of /etc/apt/sources.list screenshoot" height="550px" width="850px">
+        <img src="/sources.list2.png" alt="Content of /etc/apt/sources.list screenshoot" height="550px" width="850px">
+        <img src="/sources.list3.png" alt="Content of /etc/apt/sources.list screenshoot" height="550px" width="850px"><br>
+
+        <li>Content of php-v screenshoot</li><br>
+        <img src="/php -v.png" alt="Content of php-v screenshoot" height="550px" width="850px"><br>
+    
+    </ul>
+
+
     </div>
 </body>
 </html>
